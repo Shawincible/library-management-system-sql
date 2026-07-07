@@ -68,7 +68,7 @@ library-management-system-sql
 
 ---
 
-# Database Architecture
+## Database Architecture
 
 The Library Management System follows a normalized relational database design consisting of six core entities.
 
@@ -85,7 +85,7 @@ The database is designed using Primary Keys, Foreign Keys, and referential integ
 
 ---
 
-# Entity Relationship Diagram
+## Entity Relationship Diagram
 
 <p align="center">
 
@@ -97,7 +97,7 @@ The ER Diagram illustrates the relationships between books, members, employees, 
 
 ---
 
-# SQL Skills Demonstrated
+## SQL Skills Demonstrated
 
 - Database Design
 - Relational Modeling
@@ -119,7 +119,7 @@ The ER Diagram illustrates the relationships between books, members, employees, 
 
 ---
 
-# Business Scenarios Solved
+## Business Scenarios Solved
 
 | Scenario | Business Objective |
 |----------|--------------------|
@@ -140,7 +140,7 @@ The ER Diagram illustrates the relationships between books, members, employees, 
 
 ---
 
-# Key Features
+## Key Features
 
 - Normalized Relational Database Design
 - Six Core Business Entities
@@ -155,7 +155,7 @@ The ER Diagram illustrates the relationships between books, members, employees, 
 
 ---
 
-# What This Project Demonstrates
+## What This Project Demonstrates
 
 This project demonstrates practical experience in:
 
@@ -168,7 +168,7 @@ This project demonstrates practical experience in:
 
 ---
 
-# Future Enhancements
+## Future Enhancements
 
 - Implement database triggers
 - Develop reusable SQL functions
@@ -180,7 +180,7 @@ This project demonstrates practical experience in:
 
 ---
 
-# Project Status
+## Project Status
 
 **Status:** Completed
 
