@@ -14,6 +14,57 @@
 ![Business Analytics](https://img.shields.io/badge/Business-Analytics-success?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
+---
+
+## Project Overview
+
+| Category | Details |
+|----------|---------|
+| **Database** | PostgreSQL |
+| **Domain** | Library Management |
+| **Tables** | 6 |
+| **Business Use Cases** | 20 |
+| **Stored Procedures** | 2 |
+| **Reporting Tables (CTAS)** | 4 |
+| **ER Diagram** | Included |
+| **Dataset** | CSV Files |
+
+---
+
+## 📊 Project Metrics
+
+| Metric | Value |
+|---------|------:|
+| Database Tables | 6 |
+| SQL Scripts | 9 |
+| Business Use Cases | 20 |
+| Stored Procedures | 2 |
+| CTAS Reports | 4 |
+| Foreign Key Relationships | 5 |
+| CSV Datasets | 6 |
+
+---
+
+  ## Table of Contents
+
+- Executive Summary
+- Business Problem
+- Project Objectives
+- Business Value
+- Technology Stack
+- Database Architecture
+- Entity Relationship Diagram
+- Business Use Cases
+- SQL Skills Demonstrated
+- Project Structure
+- Key Features
+- Project Demonstration
+- Future Enhancements
+- Execution Workflow
+- License
+
+---
+
 ## Executive Summary
 
 The Library Management System is an end-to-end relational database project developed using PostgreSQL to simulate the operations of a modern library.
@@ -21,6 +72,8 @@ The Library Management System is an end-to-end relational database project devel
 The project demonstrates database design principles, relational modeling, data integrity, business reporting, and procedural SQL by managing books, members, employees, issue transactions, and return operations.
 
 It also showcases how SQL can be used to solve real-world business problems through reporting, automation, and analytical queries.
+
+---
 
 ## Business Problem
 
@@ -36,6 +89,8 @@ Managing these operations manually leads to:
 
 This project addresses these challenges by developing a normalized relational database capable of supporting daily library operations and management reporting.
 
+---
+
 ## Project Objectives
 
 - Design a normalized relational database
@@ -47,7 +102,22 @@ This project addresses these challenges by developing a normalized relational da
 - Monitor overdue books and calculate fines
 - Analyze branch-level performance
 
-## Tech Stack
+---
+
+## 💼 Business Value
+
+This project demonstrates how SQL can be used to support day-to-day business operations by:
+
+- Improving inventory visibility through book availability tracking.
+- Automating book issue and return processes.
+- Monitoring overdue books and calculating fines.
+- Measuring branch-level operational performance.
+- Identifying active members and engagement trends.
+- Generating management-ready reports for decision-making.
+
+---
+
+## Technology Stack
 
 | Category | Technology |
 |----------|------------|
@@ -57,20 +127,6 @@ This project addresses these challenges by developing a normalized relational da
 | ER Diagram | pgAdmin ERD |
 | Version Control | Git |
 | Repository | GitHub |
-
-## Repository Structure
-
-```text
-library-management-system-sql
-│
-├── data
-├── sql
-├── documentation
-├── assets
-├── screenshots
-├── LICENSE
-└── README.md
-```
 
 ---
 
@@ -103,6 +159,27 @@ The ER Diagram illustrates the relationships between books, members, employees, 
 
 ---
 
+## Business Use Cases
+
+| Scenario | Business Objective |
+|----------|--------------------|
+| Add New Books | Maintain the library inventory |
+| Update Member Information | Keep member records up to date |
+| Remove Invalid Transactions | Maintain clean transactional data |
+| Track Employee Book Issues | Monitor operational workload |
+| Identify Active Members | Analyze member engagement |
+| Generate Book Issue Summary | Monitor book circulation |
+| Analyze Rental Revenue | Measure category-wise earnings |
+| Monitor Recent Registrations | Track member acquisition |
+| Identify Overdue Books | Improve return compliance |
+| Automate Book Returns | Update inventory automatically |
+| Branch Performance Report | Evaluate operational efficiency |
+| Identify High-Risk Members | Detect repeated damaged returns |
+| Automate Book Issuing | Prevent issuing unavailable books |
+| Generate Overdue Fine Report | Support fine calculation and recovery |
+
+---
+
 ## SQL Skills Demonstrated
 
 - Database Design
@@ -125,24 +202,19 @@ The ER Diagram illustrates the relationships between books, members, employees, 
 
 ---
 
-## Business Scenarios Solved
+## Project Structure
 
-| Scenario | Business Objective |
-|----------|--------------------|
-| Add New Books | Maintain the library inventory |
-| Update Member Information | Keep member records up to date |
-| Remove Invalid Transactions | Maintain clean transactional data |
-| Track Employee Book Issues | Monitor operational workload |
-| Identify Active Members | Analyze member engagement |
-| Generate Book Issue Summary | Monitor book circulation |
-| Analyze Rental Revenue | Measure category-wise earnings |
-| Monitor Recent Registrations | Track member acquisition |
-| Identify Overdue Books | Improve return compliance |
-| Automate Book Returns | Update inventory automatically |
-| Branch Performance Report | Evaluate operational efficiency |
-| Identify High-Risk Members | Detect repeated damaged returns |
-| Automate Book Issuing | Prevent issuing unavailable books |
-| Generate Overdue Fine Report | Support fine calculation and recovery |
+```text
+library-management-system-sql
+│
+├── data
+├── sql
+├── documentation
+├── assets
+├── screenshots
+├── LICENSE
+└── README.md
+```
 
 ---
 
@@ -171,6 +243,38 @@ This project demonstrates practical experience in:
 - Developing reusable stored procedures
 - Building analytical reports for business stakeholders
 - Applying PostgreSQL best practices
+
+---
+
+## 🔄 Execution Workflow
+
+```text
+Create Database
+        │
+        ▼
+Create Tables
+        │
+        ▼
+Apply Constraints
+        │
+        ▼
+Load Data
+        │
+        ▼
+Perform CRUD Operations
+        │
+        ▼
+Business Analysis
+        │
+        ▼
+Business Intelligence Reports
+        │
+        ▼
+Stored Procedures
+        │
+        ▼
+Reporting & CTAS
+```
 
 ---
 
