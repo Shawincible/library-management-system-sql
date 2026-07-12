@@ -1,6 +1,6 @@
 /*
 ===============================================================================
-Project      : Library Management System
+Project      : Enterprise Library Management System
 File         : 02_schema_creation.sql
 Author       : Ankit Shaw
 Database     : PostgreSQL
