@@ -1,12 +1,18 @@
-# 📚 Library Management System | PostgreSQL
+# 📚 Library Management System | PostgreSQL Database project
 
 > Enterprise-level SQL project demonstrating relational database design, business analytics, stored procedures, reporting, and database automation using PostgreSQL.
 >
-> <p align="center">
+<p align="center">
 
-![Library Banner](assets/library-banner.png)
+<img src="assets/library-banner.png" alt="Enterprise Library Management System Banner" width="100%">
 
 </p>
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-025E8C?style=for-the-badge)
+![Database Design](https://img.shields.io/badge/Database-Design-blue?style=for-the-badge)
+![Business Analytics](https://img.shields.io/badge/Business-Analytics-success?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
 ## Executive Summary
 
