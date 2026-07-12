@@ -1,6 +1,6 @@
 /*
 ===============================================================================
-Project      : Library Management System
+Project      : Enterprise Library Management System
 File         : 03_constraints_and_relationships.sql
 Author       : Ankit Shaw
 Database     : PostgreSQL
