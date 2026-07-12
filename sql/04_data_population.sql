@@ -1,6 +1,6 @@
 /*
 ===============================================================================
-Project      : Library Management System
+Project      : Enterprise Library Management System
 File         : 04_data_population.sql
 Author       : Ankit Shaw
 Database     : PostgreSQL
